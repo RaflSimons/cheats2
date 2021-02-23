@@ -1,0 +1,20 @@
+.header{
+    height: 700px;
+    background: url(../../pichures/bg/947385.jpg) center (center/cover) no-repeat;
+    &__nav{
+        min-height: 55px;
+        padding: 9px 11px;
+        display: flex;
+        background-color: rgba($color: #353535, $alpha: 1);
+        justify-content: center;
+        &_item{
+            text-decoration: none;
+            margin-right: 70px;
+            color: white;
+            text-transform: uppercase;
+            :last-child{
+                margin-right: 10000px;
+            }
+        }
+    }
+}
