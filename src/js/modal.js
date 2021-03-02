@@ -4,7 +4,7 @@ var modal = document.getElementById('myModal');
 var btn = document.getElementById("btn-1");
 
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close-1")[0];
 
 
 btn.onclick = function() {
