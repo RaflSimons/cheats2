@@ -47,4 +47,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+    &__download{
+        color: white;
+        :hover{
+            color: black;
+        }
+    }
+    &__imgg{
+        width: 30%;
+    }
 }
